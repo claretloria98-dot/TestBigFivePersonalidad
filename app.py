@@ -2,7 +2,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
- with open('kmeans_model_bigfive_gm.pkl', 'rb') as f: kmeans_model = pickle.load(f)
+ with open('kmeans_model_bigfive_gm.pkl', 'rb') as f:
+  kmeans_model = pickle.load(f)
 
         #cargamos el standarizador
         with open('scaler_st_bigfive_gm.pkl', 'rb') as f:
